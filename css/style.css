@@ -1,0 +1,778 @@
+#papafritas {
+    background-color: rgb(219, 219, 219);
+    overflow-x: hidden;
+}
+body{overflow-x: hidden;}
+
+
+@font-face {
+    font-family: Bebas;
+    src: url(../tipografía/BebasNeue-Regular.ttf)
+}
+
+@font-face {
+    font-family: made;
+    src: url(../tipografía/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf)
+}
+
+@font-face {
+    font-family: apple;
+    src: url(../tipografía/Questrial-Regular.ttf)
+}
+
+@font-face {
+    font-family: open;
+    src: url(../tipografía/OpenSans-Light.ttf)
+}
+
+p {font-family: apple; line-height : 27px;} 
+#inicio {
+    width: 100%;
+    height: 100%;
+    
+}
+
+video {
+    width: 100%;
+    height: 118%;
+    position: absolute;
+}
+
+#titulo {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    background-color: rgb(219, 219, 219);
+    z-index: 1;
+    top: 30%;
+    opacity: 95%;
+    left: 15%;
+    animation-name: example3;
+    animation-duration: 1.5s;
+}
+
+#titulo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo1 h1 {
+    position: absolute;
+    font-size: 550%;
+    top: 6%;
+    font-family: Bebas;
+    color: rgb(41, 41, 41);
+    animation-name: example2;
+
+    animation-duration: 3.2s;
+    animation-timing-function: ease;
+}
+
+
+
+#subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subtitulo h2 {
+    position: absolute;
+    top: 69%;
+    animation-name: example4;
+    font-size: 33px;
+    font-family: Bebas;
+    color: rgb(41, 41, 41);
+    animation-duration: 3s;
+    animation-timing-function: ease;
+
+}
+
+#titulo1 #segundoh1 {
+    top: 31%;
+    animation-name: example;
+    animation-duration: 3.2s;
+    animation-timing-function: ease;
+}
+
+#banner {
+    position: absolute;
+    top: 0px;
+    background-color: #47555e;
+    position: fixed;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s;
+    box-shadow: 4px 1px 20px rgb(27, 29, 46);
+    animation-name: example5;
+    animation-duration: 4s;
+}
+
+#logo {
+    width: 70px;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    transition: 0.5s;
+}
+
+ul {
+    margin-right: 80px;
+    z-index: 1;
+
+    transition: 0.2s;
+    top: -12px;
+
+}
+
+li {
+    transition: 0.2s;
+    float: left;
+    color: white;
+    display: block;
+    padding: 10px 12px;
+    width: 200px;
+    text-align: center;
+    font-family: made;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+#logo:hover {
+    left: 50px;
+    transition: 0.5s;
+}
+
+#soy {
+    width: 100%;
+    height: 80%;
+    top: 110%;
+    position: absolute;
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
+    top: 180%;
+    position: absolute;
+}
+
+
+
+#soy img {
+    position: relative;
+    width: 250px;
+    left: 300px;
+    z-index: 1;
+    border: solid grey 1px;
+    top: 150px;
+}
+
+#molde {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    left: 275px;
+    top: -190px;
+    background-color: white;
+    box-shadow: 3px 3px 10px;
+}
+
+#soy h2 {
+    position: relative;
+    top: -660px;
+    left: 710px;
+    font-size: 45px;
+    font-family: Bebas;
+    color: rgb(41, 41, 41);
+}
+
+ 
+
+#soy > #flecha { position: absolute; top: 470px; left: 1490px;width: 150px;  border: none; 
+
+    animation: rebota 1s alternate infinite ease-out;
+
+} 
+
+#blanco1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 900px;
+    box-shadow: 2px 2px 20px rgb(134, 134, 134);
+}
+
+#blanco2 {
+
+    background-color: white;
+    height: 250px;
+    box-shadow: 2px 2px 20px rgb(134, 134, 134);
+    position: relative;
+    top: 50px;
+}
+
+ 
+
+#intro>h2 {
+    position: relative;
+    font-size: 55px;
+    font-family: Bebas;
+    color: rgb(41, 41, 41);
+    top: 195px;
+    left: 1076px;
+
+}
+
+#textoSoy {
+    position: relative;
+    width: 1050px;
+    height: 100px;
+    left: 710px;
+    top: -680px;
+    font-size: 20px;
+
+}
+
+
+#contener,
+#contener2,#contener3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+#contener3{top: 5px;}
+#contener3 > p {font-family: open ;}
+
+#fpropia{font-family: open ; position: relative;}
+
+#contener2{ top: 50px;  }
+
+ #contener2 > a>img{  margin: 40px;  position: relative; top: 0px;transition: 0.3s; }
+ 
+ #intro >#Figuras> #contener2 > a> img:hover{transform: scale(1.1) ; transition: 0.3s;}
+
+
+
+
+#circulos{position: relative;  right: 20px; top: 50px;} 
+
+#textoIntro { width: 800px; position: relative; left: 70px; top: 25px;}
+#textoIntro>p {
+     
+    text-align: justify;
+}
+
+#textoSoy>p {
+    text-align: justify;
+}
+
+                            /*Series*/
+                    
+     #centro p{  width: 100%;
+        top: 0px;    }
+
+#cuerpo{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+    #centro{ position: relative; width: 1100px;  margin-top: 120px;   }
+        
+    #casa >h1{font-family: Bebas;
+        color: rgb(41, 41, 41);
+        font-size: 45px;
+    }
+    #videotello{position: relative; background-color: aliceblue; width: 600px; height: 337px; margin-left: 250px;}
+    #b {   color: rgb(41, 41, 41); font-size: 25px; }
+    #c {   color: rgb(41, 41, 41); font-size: 21px; }
+
+    p> #col {position: relative; width: 235px; margin-left: 20px; margin-bottom: 0px; margin-top: 5px;}
+    #casaif{margin-left: 250px;}
+    #pcasap{position:relative ; left: 150px; }
+
+    #casap{width: 1400px; height: 600px; background-color:rgb(219, 219, 219) ;position: relative; left: -150px; box-shadow: 2px 2px 20px rgb(134, 134, 134); }
+
+
+    #casap > div> img{transform: scale(0.75,0.75); margin: -30px; position:relative; left:67px ; transition: 0.1s;}
+
+    .anima{animation:zoom 1s}
+    @keyframes zoom{
+
+        0% {transform: scale(0.8,0.8); opacity: 0.9;}
+        100%{transform:scale(0.75,0.75); opacity: 1;}
+
+    }
+    .anima2{animation:zoom2 1s}
+    @keyframes zoom2{
+
+        0% {transform: scale(0.8,0.8); opacity: 0.9;}
+        100%{transform:scale(0.75,0.75); opacity: 1;}
+
+    }
+    .anima3{animation:zoom3 1s}
+    @keyframes zoom3{
+
+        0% {transform: scale(0.8,0.8); opacity: 0.9;}
+        100%{transform:scale(0.75,0.75); opacity: 1;}
+
+    }
+    .anima4{animation:zoom4 1s}
+    @keyframes zoom4{
+
+        0% {transform: scale(0.8,0.8); opacity: 0.9;}
+        100%{transform:scale(0.75,0.75); opacity: 1;}
+
+    }
+    #casap > div> img:hover{transform: scale(0.8,0.8); transition: 0.1s;}
+  
+    .flecha{ transform: scale(0.1,0.1); position: relative ;transition: 0.1s;cursor:pointer;}
+    .flecha:hover{transform: scale(0.11,0.11); transition: 0.1s;}
+    #deref{ top: -610px; left: 1100px; }
+    #izqf{ top: -610px; left: -730px;}
+
+
+
+    #nenas{width: 235px; margin-top: 5px; margin-left: 20px;}
+    #raros{width: 235px; margin-top: 5px; margin-left: 20px;}
+    #señaler{margin-right: 20px; width: 300px; margin-top: 5px;}
+
+
+
+                                /*Medios*/
+
+    p>#personas {position: relative;  margin-left: 20px; margin-bottom: 0px; margin-top: 5px; width:350px }           
+    #modista{ margin-left: 20px;  margin-top: 5px; margin-bottom: 1px; width: 380px;}  
+    #simboliza{position: relative; width: 800px; left: 150px;}
+    #videomujer{margin-left: 250px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                /*Moda*/
+
+    #infomoda{position: relative; width: 900px; left:100px ; top: -20px;}
+    p > #col2 {width: 400px; margin-left: 30px; position: relative; top: 0px; }    
+    #tokio1 {height: 400px; margin-left: 190px ;}  
+    #tokio2 {height: 380px; position: relative; top: -20px; margin-left: 100px ;}  
+    #pull {position: relative; left: 340px; width: 400px;}
+    #mujeresc { margin-top:5px; margin-right: 20px;} 
+    #señoritas1{ float: left;}
+    #señoritas1,#señoritas2{position: relative;height: 270px;}
+    #señoritas1{ margin-left: 100px;}
+    #señoritas2{ margin-left: 60px;}
+    #ninov{margin-left: 20px; width: 400px; margin-top: 4px;}
+    #ingle{position: relative; left: 270px; margin-top: 10px; margin-bottom: 10px;}
+    #bobby{margin-right: 20px; width: 230px; margin-top: -20px;}
+    #bate{position: relative; width: 560px; left:270px;}
+    #black{position: relative; width: 300px; margin-right: 20px; }
+
+
+
+
+                                /*Consumo*/
+
+   #usuarios{width: 400px; margin-left: 25px;} 
+   #tele{ margin-left: 20px; margin-top: 5px; width:350px ;}
+   #guy{width: 330px; margin-left: 25px;} 
+   hr {height: 1px; background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;}
+
+
+                                /*Pie*/
+
+
+
+
+#pie{background-color: #47555e;  height: 300px; 
+
+
+}
+#pie>div> p { display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative; left: 8%;
+}
+
+#piep{ font-size: 30px; top: 115px;}
+#piep2{ font-size: 30px; top: 115px; font: bebas;}
+
+
+    p {
+        position: relative;
+        width: 83%;
+        top: 30px;
+        font-size: 17px;
+        text-align: justify;
+    
+    }
+@keyframes rebota {
+    0% {
+      top: 600px;
+      height: 50px;
+    }
+    10% {
+      top: 560px;
+      height: 100px;
+    }
+    100% {
+      top: 450px;
+      height: 100px;
+    }
+  }
+
+@keyframes example {
+    from {
+        position: absolute;
+        top: -1000px;
+    }
+
+    to {
+        position: absolute;
+        top: 31%;
+        visibility: visible;
+    }
+}
+
+@keyframes example2 {
+    from {
+        position: absolute;
+        top: -1000px;
+    }
+
+    to {
+        position: absolute;
+        top: 6%;
+        visibility: visible;
+    }
+}
+
+@keyframes example3 {
+    from {
+        position: absolute;
+        left: -1000px;
+    }
+
+    to {
+        position: absolute;
+        left: 15%;
+    }
+}
+
+@keyframes example4 {
+    from {
+        position: absolute;
+        top: 1500px;
+    }
+
+    to {
+        position: absolute;
+        top: 69%;
+    }
+}
+
+@keyframes example5 {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 1700px) {
+   
+    #contener2 > a>img{ margin: -25px;  position: relative; top: 0px;transition: 0.3s; transform: scale(0.8,0.8); }
+    #intro >#Figuras> #contener2 > a> img:hover{transform: scale(0.9) ; transition: 0.3s;}
+    #titulo1 h1 {
+        position: absolute;
+        font-size: 400%;
+         
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    li {
+        width: 130px;
+        position: relative;
+        left: 50px;
+    }
+
+    video {   margin-top: -20px;      }
+
+    
+    a:hover {
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #molde {
+        position: relative;
+        width: 220px;
+        height: 330px;
+        left: 165px;
+        top: -120px;
+        background-color: white;
+        box-shadow: 3px 3px 10px;
+    }
+
+
+    #soy img {
+        position: relative;
+        width: 190px;
+         
+        left: 180px;
+        z-index: 1;
+        border: solid grey 1px;
+        top: 130px;
+    }
+
+    #soy h2 {
+        position: relative;
+        top: -480px;
+        left: 520px;
+        font-size: 40px;
+        font-family: Bebas;
+        color: rgb(41, 41, 41);
+    }
+
+    #textoSoy {
+        position: relative;
+        width: 700px;
+        height: 100px;
+        left: 520px;
+        top: -510px;
+        font-size: 20px;
+    
+    }
+
+    #textoSoy> p { font-size: 13px;}
+
+    #blanco1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 110%;
+        box-shadow: 2px 2px 20px rgb(134, 134, 134);}
+
+    #circulos{position: relative;  left: 20px; top: 60px; width: 600px;
+        } 
+        
+        #textoIntro { width: 650px; position: relative; left: 0px; top: 25px;}
+        #textoIntro>p {
+             
+            text-align: justify;
+            font-size: 13px;
+        }   
+        
+        #intro>h2 {
+            position: relative;
+            font-size: 55px;
+            font-family: Bebas;
+            color: rgb(41, 41, 41);
+            top: 165px;
+            left: 660px;
+        
+        }
+        
+        .in{width: 200px; margin: 40px;}
+
+
+
+        #infomoda{position: relative; width: 800px; left:125px ; top: -20px;}
+
+
+        #guy{width: 260px; margin-left: 25px; position: relative; top: -15px;} 
+        #usuarios{width: 320px; margin-left: 25px; margin-bottom: 20px;} 
+
+
+
+
+
+        p{font-size: 13px;}
+        #casap > div> img{transform: scale(0.55,0.55); margin: -60px; position:relative; left:37px ; transition: 0.1s;}
+        #casap > div> img:hover{transform: scale(0.6,0.6); transition: 0.1s;}
+        #fpropia{position:relative ; left: 150px; }
+        #deref{ top: -580px; left: 810px; }
+        #izqf{ top: -580px; left: -740px;}
+        #casap{width: 1100px; height: 600px; background-color:rgb(219, 219, 219) ;position: relative; left: 0px; box-shadow: 2px 2px 20px rgb(134, 134, 134); }
+
+
+
+
+        @keyframes zoom{
+
+            0% {transform: scale(0.65,0.65); opacity: 0.9;}
+            100%{transform:scale(0.55,0.55); opacity: 1;}
+    
+        }
+        .anima2{animation:zoom2 1s}
+        @keyframes zoom2{
+    
+            0% {transform:scale(0.65,0.65); opacity: 0.9;}
+            100%{transform:scale(0.55,0.55); opacity: 1;}
+    
+        }
+        .anima3{animation:zoom3 1s}
+        @keyframes zoom3{
+    
+            0% {transform: scale(0.65,0.65); opacity: 0.9;}
+            100%{transform:scale(0.55,0.55); opacity: 1;}
+    
+        }
+        .anima4{animation:zoom4 1s}
+        @keyframes zoom4{
+    
+            0% {transform: scale(0.65,0.65); opacity: 0.9;}
+            100%{transform:scale(0.55,0.55); opacity: 1;}
+    
+        }
+
+}
+
+
+
+
+@media only screen and (max-width : 900px) {
+    li {
+        visibility: hidden;
+    }
+
+    #titulo1 h1 {
+        position: absolute;
+        font-size: 140%;
+        top: 16%;
+       animation-name: example2;
+    }
+
+    #titulo1>   #segundoh1{ position: relative; top: 95px;   animation-name: example; }
+
+    #subtitulo h2 {
+        font-size: 105%;
+        top: 60%;
+        animation-name: example4;
+    }
+
+    #titulo {
+        position: absolute;
+        top: 60px;
+        height: 260px;
+    }
+
+    video {
+        position: absolute;
+        top: -32%;
+    }
+
+    #soy h2 {
+        position: relative;
+        top: -1340px;
+        left: 35%;
+        font-size: 45px;
+        font-family: Bebas;
+        color: rgb(41, 41, 41);
+        z-index: 21;
+    }
+    
+
+    #soy img {
+        position: relative;
+        width: 250px;
+        left: 20%;
+        z-index: 1;
+        border: solid grey 1px;
+        top: -460px;
+    }
+
+    #molde {
+        position: relative;
+        width: 300px;
+        height: 450px;
+        left: 14%;
+        top: -800px;
+        background-color: white;
+        box-shadow: 3px 3px 10px;
+    }
+
+
+
+
+
+
+    @keyframes example {
+        from {
+            position: absolute;
+            top: -1000px;
+        }
+    
+        to {
+            position: absolute;
+            top: 95px;
+            visibility: visible;
+        }
+    }
+
+
+    @keyframes example2 {
+        from {
+            position: absolute;
+            top: -1000px;
+        }
+    
+        to {
+            position: absolute;
+            top: 16%;
+            visibility: visible;
+        }
+    }
+    @keyframes example4 {
+        from {
+            position: absolute;
+            top: 1500px;
+        }
+    
+        to {
+            position: absolute;
+            top: 60%;
+        }
+    }
+
+}
